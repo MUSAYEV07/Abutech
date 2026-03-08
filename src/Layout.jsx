@@ -1,8 +1,12 @@
-import React from 'react'
+import Header from "./Header/Header"
+
+Header
 
 function Layout() {
   return (
-    <div>Layout</div>
+    <div>
+      <Header />
+    </div>
   )
 }
 
