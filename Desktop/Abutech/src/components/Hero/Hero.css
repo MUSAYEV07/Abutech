@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.hero {
+    margin-top: 50px;
+}
+
+.hero-container {
+    width: 100%;
+    background-image: url(https://abutechone.netlify.app/images/abutechBackground.jpg);
+    height: 500px; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.hero-content {
+    color: white;
+    padding-top: 130px;
+    padding-left: 70px;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+}
+
+/* From Uiverse.io by Carlos-vargs */ 
+.button {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background: linear-gradient(30deg, rgb(255, 130, 0) 20%, rgb(255, 38, 0) 80%);
+  transition: all 0.3s ease-in-out 0s;
+  box-shadow: rgba(193, 244, 246, 0.698) 0px 0px 0px 0px;
+  animation: 1.2s cubic-bezier(0.8, 0, 0, 1) 0s infinite normal none running pulse;
+  align-items: center;
+  border: 0;
+}
+
+.button:is(:hover, :focus) {
+  transform: scale(1.2);
+}
+
+@keyframes pulse {
+  100% {
+    box-shadow: 0 0 0 45px rgba(193,244,246,0);
+  }
+}
+
+.hero-btn {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+
+  background-color:rgb(56, 56, 127);
+  opacity: 0.8;
+  border: 1px solid white;
+  align-items: baseline;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
