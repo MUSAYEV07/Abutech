@@ -1,7 +1,7 @@
 /* statistic.css */
 
 section {
-  padding: 60px 0;
+  padding: 0;
   background-color: #f9f9f9;
   font-family: 'Arial', sans-serif;
 }
@@ -31,12 +31,12 @@ section {
 .count {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #1a73e8; /* nice blue color */
+  color: #010c23; /* nice blue color */
 }
 
 .statistic-card span {
-  font-size: 2rem;
-  color: #1a73e8;
+  font-size: 5rem;
+  color: #020551;
   margin-left: 5px;
 }
 
@@ -59,6 +59,25 @@ section {
 }
 }
 
+.stat-top{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.stat-top span{
+  font-size: 2.5rem;
+  margin-left: 5px;
+}
+
+.statistic-card{
+  display: block;
+}
+
+.malumot {
+    color: #020551;
+    display: block;
+}
 
 
 
