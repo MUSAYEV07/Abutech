@@ -1,0 +1,90 @@
+.about {
+    padding: 50px 0;
+}
+
+.about-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5%;
+}
+
+.about-title-h1 {
+    font-size: 40px;
+}
+
+.about-subtitle {
+    line-height: 1.6;
+}
+
+.about-card-img {
+    width: 50%;
+}
+
+.about-site {
+    display: flex;
+    gap: 50px;
+}
+
+.about-number {
+    color: rgba(173, 170, 170, 0.868);
+    font-size: 15px;
+}
+
+.about-btn {
+    width: 100px;
+    height: 40px;
+    background-color: aqua;
+    border: none;
+    border-radius: 8px;
+    color: #000;
+}
+
+
+/* ========== TABLET ========== */
+
+@media (max-width: 992px){
+
+.about-card{
+    flex-direction: column;
+    text-align: center;
+}
+
+.about-card-img{
+    width: 80%;
+}
+
+.about-site{
+    justify-content: center;
+}
+
+}
+
+
+/* ========== MOBILE ========== */
+
+@media (max-width: 600px){
+
+.about-title-h1{
+    font-size: 28px;
+}
+
+.about-subtitle{
+    font-size: 14px;
+}
+
+.about-card-img{
+    width: 100%;
+}
+
+.about-site{
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.about-btn{
+    width: 120px;
+}
+
+}
