@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FiPhoneCall } from "react-icons/fi";
 import { HiMenu, HiX } from "react-icons/hi";
+import icon from './abutech-logo.svg'
 import "./Header.css";
 
 function Header() {
@@ -10,7 +11,9 @@ function Header() {
     <header className="header">
       <div className="container">
         {/* LOGO */}
-        <div className="logo">Abutech</div>
+        <div className="logo">
+          <img src={icon} alt="" />
+        </div>
 
         {/* Desktop menu */}
         <div className="right desktop">

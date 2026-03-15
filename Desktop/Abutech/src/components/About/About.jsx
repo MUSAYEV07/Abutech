@@ -8,7 +8,7 @@ function About() {
             <div className="container">
                 <div className="about-container">
                     <div className='about-title'>
-                        <p> Bizning</p>
+                        <p className='about-title-subtitle'> Bizning</p>
                         <h1>LOYIHALARIMIZ</h1>
                         <div className="about-cards">
                             <div className="about-card">
